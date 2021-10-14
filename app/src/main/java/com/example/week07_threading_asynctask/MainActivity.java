@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         alert.setPositiveButton("yes",(v,a)->{
             Toast.makeText(MainActivity.this,"you clicked yes on the alert", Toast.LENGTH_LONG).show();
         });
+
         alert.create().show();
 
     }
